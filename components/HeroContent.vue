@@ -16,7 +16,7 @@
       </div>
       <!--Right Col-->
       <div class="w-full md:w-3/5 py-6 text-center">
-        <img class="w-full md:w-4/5 z-50" src="~/assets/img/hero.png" alt />
+        <img class="w-full md:w-4/5 z-50" :src="heroImage" alt />
       </div>
     </div>
   </div>
@@ -24,6 +24,10 @@
 
 <script>
 export default {
-  name: 'HeroContent'
+  data: function() {
+    return {
+      heroImage: '/hero.png'
+    }
+  }
 }
 </script>
