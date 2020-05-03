@@ -13,7 +13,7 @@
             <title>Menu</title>
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
-        </button>        
+        </button>
       </div>
 
       <div
@@ -21,6 +21,7 @@
         class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
+          <!--
           <li class="mr-3">
             <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
           </li>
@@ -35,12 +36,13 @@
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
             >link</a>
-          </li>
+          </li>-->
         </ul>
-        <button
+        <a
           :class="navActionClassList"
           class="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
-        >Action</button>
+          v-bind:href="this.$constant.app_url"
+        >アプリはこちら</a>
       </div>
     </div>
     <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />

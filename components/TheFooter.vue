@@ -6,7 +6,7 @@
           <logo />
         </div>
 
-        <div class="flex-1">
+        <!-- <div class="flex-1">
           <p class="uppercase text-gray-500 md:mb-6">Links</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
@@ -91,13 +91,9 @@
               >Contact</a>
             </li>
           </ul>
-        </div>
+        </div>-->
       </div>
     </div>
-
-    <a
-      href="https://www.freepik.com/free-photos-vectors/background"
-    >Background vector created by freepik - www.freepik.com</a>
   </footer>
 </template>
 

@@ -2,8 +2,8 @@
   <div>
     <hero />
     <features />
-    <teasers />
-    <prices />
+    <!-- <teasers /> -->
+    <!-- <prices /> -->
     <call-to-action />
   </div>
 </template>
