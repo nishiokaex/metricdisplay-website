@@ -1,0 +1,9 @@
+deploy:
+  box: node:latest
+  steps:
+  - script:
+    name: deploy
+    code: |-
+      npm install --global firebase-tools
+      npm run build
+      firebase deploy --only hosting:metricdisplay-top --token $FIREBASE_TOKEN
