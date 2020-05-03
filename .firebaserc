@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "metricdisplay"
+  },
+  "targets": {
+    "metricdisplay": {
+      "hosting": {
+        "metricdisplay-top": [
+          "metricdisplay-top"
+        ]
+      }
+    }
+  }
+}
